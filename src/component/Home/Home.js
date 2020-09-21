@@ -64,7 +64,7 @@ class Home extends Component{
                       <Text style={styles.sectionDescription}>Home</Text>
                       <Button 
                         title="Log Out" 
-                        onPress={() => navigation.navigate('Login')}/>
+                        onPress={() => navigation.navigate('LoginContainer')}/>
                     </View>
                   </View>
                 </ScrollView>

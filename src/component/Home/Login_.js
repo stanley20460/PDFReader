@@ -34,7 +34,7 @@ export class LoginContainer extends Component{
         const {username, password} = this.state
         // localStorage.setItem("password", this.state.password);
         if(username==='test' && password==='aabbccdd'){
-            this.props.navigation.navigate('Home')
+            this.props.navigation.navigate('HomeContainer')
         }
     }
 
