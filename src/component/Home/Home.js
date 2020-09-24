@@ -62,6 +62,10 @@ class Home extends Component{
                     <View style={styles.sectionContainer}>
                       <Text style={styles.sectionTitle}>Welcome</Text>
                       <Text style={styles.sectionDescription}>Home</Text>
+                      <Button
+                        title="Search"
+                        onPress={() => navigation.push('Search')}
+                      />
                       <Button 
                         title="Log Out" 
                         onPress={() => navigation.navigate('LoginContainer')}/>
