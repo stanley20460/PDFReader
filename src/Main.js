@@ -92,7 +92,8 @@ function HomeScreen({ navigation }) {
                   screenOptions={({ route }) => ({
                     tabBarIcon: ({ focused }) => {
                       let iconName;
-
+                      let color;
+                      color = focused ? "#15acf2" : "#aad0e2"
                       if (route.name === 'First') {
                         iconName = focused
                           ? faHome
@@ -104,12 +105,12 @@ function HomeScreen({ navigation }) {
                       }
 
                       // You can return any component that you like here!
-                      return <FontAwesomeIcon icon={iconName} size={25} />;
+                      return <FontAwesomeIcon icon={iconName} size={26} color={color} />;
                     },
                   })}
                   tabBarOptions={{
-                    activeTintColor: 'tomato',
-                    inactiveTintColor: 'gray',
+                    activeTintColor: "#15acf2",
+                    inactiveTintColor: "#aad0e2",
                   }}
                 >
                   <Tab.Screen name="First" >
