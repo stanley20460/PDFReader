@@ -6,12 +6,13 @@ import {
     View,
     Text,
     StatusBar,
-    Button,
-    TextInput,
+    // Button,
+    // TextInput,
     Image
   } from 'react-native';
 
-import Carousel from 'react-native-banner-carousel';    
+import Carousel from '@webileapps/react-native-banner-carousel';
+import { Input, Button, Icon } from 'react-native-elements';
 
 class Login extends Component{
 
@@ -20,24 +21,30 @@ class Login extends Component{
       container: {
         paddingTop: 50,
       },
-    
       banner: {
         width: 500,
         height: 200,
       },
-    
       engine: {
         position: 'absolute',
         right: 0,
       },
-     
       sectionContainer: {
         marginTop: 32,
         paddingHorizontal: 24,
       },
+      labelStyle : {
+        fontSize: 18,
+      },
       sectionTitle: {
         fontSize: 24,
         fontWeight: '600',
+      },
+      loginTitle: {
+        fontSize: 24,
+        fontWeight: '600',
+        textAlign: 'center',
+        marginBottom: 10,
       },
       sectionDescription: {
         marginTop: 8,
@@ -64,29 +71,44 @@ class Login extends Component{
                 <ScrollView
                   contentInsetAdjustmentBehavior="automatic"
                   style={styles.scrollView}>
-                  {global.HermesInternal == null ? null : (
+                  {global.HermesInternal === null ? null : (
                     <View style={styles.engine}>
                       <Text style={styles.footer}>Engine: Hermes</Text>
                     </View>
                   )}
                   <View style={styles.body}>
                     <View style={styles.sectionContainer}>
-                      <Text style={styles.sectionTitle}>Login</Text>
-                      <Text style={styles.sectionDescription}>User Name</Text>
-                      <TextInput
+                      <Text style={styles.loginTitle}>Login</Text>
+                      {/* <Text style={styles.sectionDescription}>User Name</Text> */}
+                      <Input
+                        label='User Name'
+                        labelStyle={styles.labelStyle}
+                        id='name'
+                        placeholder='User Name'
+                        // InputComponent = {TextInput}
+                        onChangeText={handleOnChangeUsername}
+                        value={username}
+                        />
+                      {/* <TextInput
                         id='name'
                         style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
                         onChangeText={handleOnChangeUsername}
                         value={username}
-                      />
+                      /> */}
                       <Text style={styles.sectionDescription}>Password</Text>
-                      <TextInput
+                      <Input name='password' 
+                        onChangeText={handleOnChangePassword}
+                        value={password}
+                        placeholder="Password" 
+                        secureTextEntry={true}
+                      />
+                      {/* <TextInput
                         name='password'
                         secureTextEntry={true}
                         style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
                         onChangeText={handleOnChangePassword}
                         value={password}
-                      />
+                      /> */}
                       <Button 
                         title="Login" 
                         onPress={handleOnSubmit}/>
@@ -95,22 +117,32 @@ class Login extends Component{
                       <Text style={styles.sectionTitle}>Reset Password</Text>
                       <Button 
                         title="Reset Password" 
-                        onPress={() => navigation.navigate('Resetpassword')}/>
+                        type="outline"
+                        onPress={() => navigation.navigate('Resetpassword')}
+                      />
+                    </View>
+                    <View style={styles.sectionContainer}>
+                      <Text style={styles.sectionTitle}>List Demo</Text>
+                      
+                      <Button 
+                        title="View List" 
+                        type="outline"
+                        onPress={() => navigation.navigate('ListPage')}
+                      />
                     </View>
                   </View>
                   <View style={styles.container}>
-                  <Carousel
-                    autoplay
-                    autoplayTimeout={5000}
-                    loop
-                    index={0}  
-                  >
-                  {console.log(images)}
-                  {images.map((image, index) => 
-                        <View key={index}>
-                          <Image style={styles.banner} source={image} />
-                          </View>)}
-                      </Carousel>
+                    <Carousel
+                      // autoplay
+                      autoplayTimeout={10000}
+                      // loop={false}
+                      index={1}
+                    >
+                      {images.map((image, index) => 
+                      <View key={index}>
+                        <Image style={styles.banner} source={image} />
+                      </View>)}
+                    </Carousel>
                   </View>
                 </ScrollView>
               </SafeAreaView>

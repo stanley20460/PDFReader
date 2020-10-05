@@ -33,8 +33,8 @@ export class LoginContainer extends Component{
     handleOnSubmit = () => {
         const {username, password} = this.state
         // localStorage.setItem("password", this.state.password);
-        if(username==='test' && password==='aabbccdd'){
-            this.props.navigation.navigate('HomeContainer')
+        if(username==='Test' && password==='aabbccdd'){
+            this.props.navigation.navigate('Home')
         }
     }
 

@@ -7,8 +7,9 @@ import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import HomeContainer from './component/Home/Home_'
-import LoginContainer from './component/Home/Login_'
+import Home from './component/Home/Home_'
+import Login from './component/Home/Login_'
+import ListPage from './component/pages/ListPage_'
 
 export class Main extends Component{
     
@@ -18,15 +19,24 @@ export class Main extends Component{
         storeProvider.init(configureStore)
         const store = storeProvider.getStore();
         return(
-            <Provider store={store}>
+          <Provider store={store}>
             <NavigationContainer>
-                <Stack.Navigator initialRouteName="Login">
-                <Stack.Screen name="LoginContainer" component={LoginContainer} 
-                  options={{ title: () => <Login /> }} />
-                    <Stack.Screen name="HomeContainer" component={HomeContainer} />
-                </Stack.Navigator>
+              <Stack.Navigator initialRouteName="Login">
+                <Stack.Screen name="Home"
+                  options={{ title: 'Home' }}
+                  component={Home}
+                />
+                <Stack.Screen name="Login"
+                  options={{ title: 'Login', headerShown: false }}
+                  component={Login} 
+                />
+                <Stack.Screen name="ListPage" 
+                  options={{ title: 'List Page' }}
+                  component={ListPage} 
+                />
+              </Stack.Navigator>
             </NavigationContainer>
-            </Provider>
+          </Provider>
         )
     }
 }
