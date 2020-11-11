@@ -7,7 +7,12 @@ export class HomeContainer extends Component{
         super(props)
         this.state={
             username: '',
-            password:''
+            password:'',
+            images: [
+              require('_assets/images/image1.jpg'),          // Local image
+              require('_assets/images/image2.jpg'),          // Local image
+              require('_assets/images/image3.jpg'),          // Local image
+            ]
         }
     }
 

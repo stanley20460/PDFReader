@@ -8,12 +8,7 @@ export class LoginContainer extends Component{
         this.state={
             enable: false,
             username: '',
-            password: '',
-            images: [
-                require('../../image/image1.jpg'),          // Local image
-                require('../../image/image2.jpg'),          // Local image
-                require('../../image/image3.jpg'),          // Local image
-              ]
+            password: ''
         }
     }
 
@@ -33,8 +28,8 @@ export class LoginContainer extends Component{
     handleOnSubmit = () => {
         const {username, password} = this.state
         // localStorage.setItem("password", this.state.password);
-        if(username==='test' && password==='aabbccdd'){
-            this.props.navigation.navigate('HomeContainer')
+        if(username==='Test' && password==='aabbccdd'){
+            this.props.navigation.navigate('Home')
         }
     }
 

@@ -8,10 +8,10 @@ import {
     StatusBar,
     Button,
     TextInput,
-    Image
+    // Image
   } from 'react-native';
 
-import Carousel from 'react-native-banner-carousel';    
+// import Carousel from 'react-native-banner-carousel';
 
 class Login extends Component{
 
@@ -89,7 +89,7 @@ class Login extends Component{
                       />
                       <Button 
                         title="Login" 
-                        onPress={handleOnSubmit}/>
+                      onPress={handleOnSubmit}/>
                     </View>
                     <View style={styles.sectionContainer}>
                       <Text style={styles.sectionTitle}>Reset Password</Text>
@@ -99,18 +99,18 @@ class Login extends Component{
                     </View>
                   </View>
                   <View style={styles.container}>
-                  <Carousel
+                  {/* <Carousel
                     autoplay
                     autoplayTimeout={5000}
                     loop
                     index={0}  
                   >
-                  {console.log(images)}
-                  {images.map((image, index) => 
-                        <View key={index}>
-                          <Image style={styles.banner} source={image} />
-                          </View>)}
-                      </Carousel>
+                    {console.log(images)}
+                    {images.map((image, index) => 
+                      <View key={index}>
+                        <Image style={styles.banner} source={image} />
+                      </View>)}
+                  </Carousel> */}
                   </View>
                 </ScrollView>
               </SafeAreaView>
