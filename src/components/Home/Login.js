@@ -8,7 +8,7 @@ import {
     StatusBar,
     Button,
     TextInput,
-    // Image
+    Image
   } from 'react-native';
 
 // import Carousel from 'react-native-banner-carousel';
@@ -30,7 +30,20 @@ class Login extends Component{
         position: 'absolute',
         right: 0,
       },
-     
+      imgContainer : {
+        backgroundColor: 'blue', 
+        borderWidth: 1, 
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 200,
+        overflow: 'hidden'
+      },
+      imgcenter:{
+        // flex: 1,
+        // justifyContent: 'center',
+        // alignItems: 'center',
+      },
       sectionContainer: {
         marginTop: 32,
         paddingHorizontal: 24,
@@ -54,6 +67,7 @@ class Login extends Component{
         paddingRight: 12,
         textAlign: 'right',
       },
+
     });
 
     const {handleOnChangePassword, handleOnChangeUsername, password, username, navigation, enable, images, handleOnSubmit} = this.props;
@@ -71,6 +85,10 @@ class Login extends Component{
                   )}
                   <View style={styles.body}>
                     <View style={styles.sectionContainer}>
+                      {/* <View style={styles.imgContainer}> */}
+                        <Image source={require('_assets/images/defaultNewsImg.jpg')} style={{width: 300, height: 100}} resizeMode="contain" />
+                        <Image source={{ uri: 'https://iportal-uat.infocast.hk/NewsPictures/2NewsType/RTSE/1.jpg?ts=1606805159' }} style={{width: 300, height: 100}} resizeMode="contain" />
+                      {/* </View> */}
                       <Text style={styles.sectionTitle}>Login</Text>
                       <Text style={styles.sectionDescription}>User Name</Text>
                       <TextInput

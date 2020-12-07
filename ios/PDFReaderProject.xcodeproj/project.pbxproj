@@ -11,14 +11,21 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		16F8D1DDF7DD4AA7BC25CC54 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE4FBE342E164925A64FD786 /* Montserrat-SemiBold.ttf */; };
 		292268DE363E8989DA190A97 /* libPods-PDFReaderProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA6E6DA1D767326EC04A5AF /* libPods-PDFReaderProject.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* PDFReaderProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PDFReaderProjectTests.m */; };
+		55B3C50090B64FD88654C3AB /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF9A9564C7471CA5B6C5E8 /* Montserrat-Light.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8384B9B4C0ED4CA88673AA4B /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A724740585354E16A1B10683 /* Montserrat-Medium.ttf */; };
+		BEF40A08075B461B951E49BA /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AA47591D99C484FB5C3ECED /* Montserrat-Thin.ttf */; };
 		CBE86652E7978B90AB17917B /* libPods-PDFReaderProject-PDFReaderProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BCD4D0C171044B9C2819E8 /* libPods-PDFReaderProject-PDFReaderProjectTests.a */; };
 		D3A4747CF3A50ACF14310D88 /* libPods-PDFReaderProject-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C89BDA7CFB4A92419E3A9A7 /* libPods-PDFReaderProject-tvOS.a */; };
+		F6089E7BD09C4DA3A6B7D6CA /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1699B6D68D00469FBE2AACC1 /* Montserrat-Regular.ttf */; };
+		F7927BE434EC481CBD15B390 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99CA6C559BF84673AD2617F7 /* Montserrat-ExtraLight.ttf */; };
+		F8402D15E59B4B72B6C3EE9F /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2960401383C4AA680699FB5 /* Montserrat-ExtraBold.ttf */; };
 		FF0EDEE7351789F0E93F68C4 /* libPods-PDFReaderProject-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C290F9FEF69ACEAE7A0CFB5A /* libPods-PDFReaderProject-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +51,7 @@
 		00E356EE1AD99517003FC87E /* PDFReaderProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFReaderProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* PDFReaderProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFReaderProjectTests.m; sourceTree = "<group>"; };
+		0AA47591D99C484FB5C3ECED /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
 		11D303B088368DD91943BABC /* Pods-PDFReaderProject-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderProject-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PDFReaderProject-tvOSTests/Pods-PDFReaderProject-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* PDFReaderProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFReaderProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PDFReaderProject/AppDelegate.h; sourceTree = "<group>"; };
@@ -51,20 +59,26 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PDFReaderProject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PDFReaderProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PDFReaderProject/main.m; sourceTree = "<group>"; };
+		1699B6D68D00469FBE2AACC1 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* PDFReaderProject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDFReaderProject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* PDFReaderProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PDFReaderProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E4C004BAEFFE76425A21CC /* Pods-PDFReaderProject-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderProject-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PDFReaderProject-tvOSTests/Pods-PDFReaderProject-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3FA6E6DA1D767326EC04A5AF /* libPods-PDFReaderProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFReaderProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFF9A9564C7471CA5B6C5E8 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		6C2D20C1E0F15310BE9CF480 /* Pods-PDFReaderProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderProject.debug.xcconfig"; path = "Target Support Files/Pods-PDFReaderProject/Pods-PDFReaderProject.debug.xcconfig"; sourceTree = "<group>"; };
 		7C89BDA7CFB4A92419E3A9A7 /* libPods-PDFReaderProject-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFReaderProject-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PDFReaderProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F276668EF9E47B17259D784 /* Pods-PDFReaderProject-PDFReaderProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderProject-PDFReaderProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-PDFReaderProject-PDFReaderProjectTests/Pods-PDFReaderProject-PDFReaderProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99CA6C559BF84673AD2617F7 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../src/assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A724740585354E16A1B10683 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		BC8172B1A73C2305C12205F4 /* Pods-PDFReaderProject-PDFReaderProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderProject-PDFReaderProjectTests.release.xcconfig"; path = "Target Support Files/Pods-PDFReaderProject-PDFReaderProjectTests/Pods-PDFReaderProject-PDFReaderProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE4FBE342E164925A64FD786 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		C290F9FEF69ACEAE7A0CFB5A /* libPods-PDFReaderProject-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFReaderProject-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02D022AE29ED95E2DD78C02 /* Pods-PDFReaderProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderProject.release.xcconfig"; path = "Target Support Files/Pods-PDFReaderProject/Pods-PDFReaderProject.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F0939545756DDD03566841BB /* Pods-PDFReaderProject-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderProject-tvOS.release.xcconfig"; path = "Target Support Files/Pods-PDFReaderProject-tvOS/Pods-PDFReaderProject-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F2960401383C4AA680699FB5 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../src/assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		F3BCD4D0C171044B9C2819E8 /* libPods-PDFReaderProject-PDFReaderProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFReaderProject-PDFReaderProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F842F7B5B9A765E9BD972773 /* Pods-PDFReaderProject-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderProject-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PDFReaderProject-tvOS/Pods-PDFReaderProject-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +179,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				AE9159E4A42F02F71E133242 /* Pods */,
+				DB586FCCB1864C7FA084CA7E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -195,6 +210,20 @@
 				11D303B088368DD91943BABC /* Pods-PDFReaderProject-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB586FCCB1864C7FA084CA7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2960401383C4AA680699FB5 /* Montserrat-ExtraBold.ttf */,
+				99CA6C559BF84673AD2617F7 /* Montserrat-ExtraLight.ttf */,
+				4DFF9A9564C7471CA5B6C5E8 /* Montserrat-Light.ttf */,
+				A724740585354E16A1B10683 /* Montserrat-Medium.ttf */,
+				1699B6D68D00469FBE2AACC1 /* Montserrat-Regular.ttf */,
+				BE4FBE342E164925A64FD786 /* Montserrat-SemiBold.ttf */,
+				0AA47591D99C484FB5C3ECED /* Montserrat-Thin.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +371,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F8402D15E59B4B72B6C3EE9F /* Montserrat-ExtraBold.ttf in Resources */,
+				F7927BE434EC481CBD15B390 /* Montserrat-ExtraLight.ttf in Resources */,
+				55B3C50090B64FD88654C3AB /* Montserrat-Light.ttf in Resources */,
+				8384B9B4C0ED4CA88673AA4B /* Montserrat-Medium.ttf in Resources */,
+				F6089E7BD09C4DA3A6B7D6CA /* Montserrat-Regular.ttf in Resources */,
+				16F8D1DDF7DD4AA7BC25CC54 /* Montserrat-SemiBold.ttf in Resources */,
+				BEF40A08075B461B951E49BA /* Montserrat-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +411,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		0377886CBDF27B7349487DFE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
